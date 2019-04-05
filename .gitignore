@@ -2,3 +2,7 @@
 /logs/*
 !/logs/README.md
 /public_html/uploads/*
+/raw/*
+.env
+*.zip
+composer.lock
