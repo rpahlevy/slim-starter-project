@@ -1,6 +1,6 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<?php if (strpos(\Riri\Model\Utils::getURL(), "localhost") !== false): ?>
+<?php if (strpos(\App\Vars\Utils::getURL(), "localhost") !== false): ?>
     <script src="/js/vue.js"></script>
 <?php else: ?>
     <script src="/js/vue.min.js"></script>
