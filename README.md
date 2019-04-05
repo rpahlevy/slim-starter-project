@@ -1,0 +1,3 @@
+# Slim Project
+
+	composer update

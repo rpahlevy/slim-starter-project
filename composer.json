@@ -1,0 +1,32 @@
+{
+    "name": "App",
+    "description": "",
+    "homepage": "",
+    "authors": [
+        {
+            "name": "",
+            "email": "",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "vlucas/phpdotenv": "^2.4",
+        "monolog/monolog": "^1.17",
+        "catfan/medoo": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout" : 0
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public_html"
+    }
+
+}
