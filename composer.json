@@ -4,9 +4,9 @@
     "homepage": "https://app.io",
     "authors": [
         {
-            "name": "Rio Pahlevy",
-            "email": "rio.pahlevy@gmail.com",
-            "homepage": "https://github.com/rpahlevy"
+            "name": "Your name here",
+            "email": "your.email@example.com",
+            "homepage": "https://example.com"
         }
     ],
     "require": {

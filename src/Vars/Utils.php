@@ -161,7 +161,7 @@ class Utils
      * Faster json_encode
      * http://php.net/manual/en/function.json-encode.php#100835
      */
-    function json_encode( $data ) {           
+    public static function json_encode( $data ) {           
         if( is_array($data) || is_object($data) ) {
             $islist = is_array($data) && ( empty($data) || array_keys($data) === range(0,count($data)-1) );
            
@@ -227,7 +227,7 @@ class Utils
      * Again, faster json_encode
      * http://php.net/manual/en/function.json-encode.php#113219
      */
-    function json_encode2($val)
+    public static function json_encode2($val)
     {
         if (is_string($val)) return '"'.addslashes($val).'"';
         if (is_numeric($val)) return $val;

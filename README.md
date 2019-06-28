@@ -1,3 +1,3 @@
 # Slim Project
 
-	composer update
+	composer install
